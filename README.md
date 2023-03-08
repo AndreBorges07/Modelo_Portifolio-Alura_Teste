@@ -1,5 +1,5 @@
 # Modelo_Portifolio-Alura_Teste
-![Status-Concluído-green](https://user-images.githubusercontent.com/93163125/210287743-09caa864-8da5-449e-b864-deb864513652.svg)
+Em desenvolvimento
 ![Primeira página do site](https://user-images.githubusercontent.com/93163125/223783819-d4cb3403-7cda-4e89-b826-ad2d218c31ce.png)
 
 # Descrição
@@ -24,7 +24,7 @@ Modelo criado para treinar os conhecimentos com HTML e CSS, usando variáveis pa
 
 </ul>
 
-# Certificado: HTML e CSS: cabeçalho, footer e variáveis CSS
-
-Acesse aqui: https://cursos.alura.com.br/certificate/3bdd0fce-105b-4c2c-907f-12e256c1e093
-
+# Certificados: 
+HTML e CSS: Classes, posicionamento e Flexbox: https://cursos.alura.com.br/certificate/1a21419a-d465-4f71-9c12-600b99fd7648
+<br>HTML e CSS: cabeçalho, footer e variáveis CSS: https://cursos.alura.com.br/certificate/3bdd0fce-105b-4c2c-907f-12e256c1e093
+<br>HTML e CSS: trabalhando com responsividade e publicação de projetos: Em desenvolvimento
