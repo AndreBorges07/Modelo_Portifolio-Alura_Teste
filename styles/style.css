@@ -14,9 +14,6 @@
     padding: 0;
 }
 
-section{
-    height: 100vh;
-}
 
 body{
     box-sizing: border-box;
@@ -33,7 +30,7 @@ body{
 }
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 2.25rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -43,33 +40,34 @@ body{
     color: var(--cor-secundaria);
 }
 
-
-
 .apresentacao{
-    height: 100vh;
+    
     padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 .apresentacao__conteudo{
     
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
-    
 }
+
+
+
 .titulo-destaque{
     color: var(--cor-terciaria);
 }
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem; /*pega o valor de 24px e divide por 16. Ex: 24/16 = 1.5*/
     font-family: var(--fonte-secundaria);
    
 }
@@ -84,17 +82,17 @@ body{
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem; /*É a conversão com 16px*/
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -106,12 +104,39 @@ body{
     background-color: var(--cor-hover);
     transform: scale(1.1); /*Aumenta o tamanho do botão*/
 }
+
+.apresentacao__imagem{
+    width: 50%;
+
+}
+
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding: 24px;
+    padding: 1.5rem;
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+
+@media (max-width: 1200px){
+
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse; /*É que a imagem no HTML está "embaixo", por isso o reverse para colocar a imagem em cima*/
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto; /*Serve para ocupar o espaço automático*/
+    }
+
 }
