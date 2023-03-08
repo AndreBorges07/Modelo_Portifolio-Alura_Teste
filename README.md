@@ -4,7 +4,7 @@
 
 # Descrição
 Modelo criado para treinar os conhecimentos com HTML e CSS, usando variáveis para facilitar a customização do projeto.
-<br>Acesse o projeto aqui: *******
+<br>Acesse o projeto aqui: modelo-portifolio-alura-teste.vercel.app
 
 # Tecnologias utilizadas
 
@@ -27,12 +27,4 @@ Modelo criado para treinar os conhecimentos com HTML e CSS, usando variáveis pa
 # Certificado: HTML e CSS: cabeçalho, footer e variáveis CSS
 
 Acesse aqui: https://cursos.alura.com.br/certificate/3bdd0fce-105b-4c2c-907f-12e256c1e093
-
-
-
-
-
-
-
-
 
