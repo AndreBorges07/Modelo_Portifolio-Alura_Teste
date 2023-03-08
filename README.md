@@ -4,7 +4,7 @@
 
 # Descrição
 Modelo criado para treinar os conhecimentos com HTML e CSS, usando variáveis para facilitar a customização do projeto.
-<br>Acesse o projeto aqui: modelo-portifolio-alura-teste.vercel.app
+<br>Acesse o projeto aqui: [modelo-portifolio-alura-teste.vercel.app](https://modelo-portifolio-alura-teste.vercel.app/)
 
 # Tecnologias utilizadas
 
