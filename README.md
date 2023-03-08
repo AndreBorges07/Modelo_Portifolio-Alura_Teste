@@ -15,6 +15,15 @@ Modelo criado para treinar os conhecimentos com HTML e CSS, usando variáveis pa
 # Aprendizado
 
 <ul>
+    <li><b>1º Certificado</b></li>
+    <li>Seletores e posicionamento</li>
+    <li>Posicionando mais elementos</li>
+    <li>Estilos de texto e fontes</li>
+    <li>Manipulando botões</li>
+    <li>Ajustando o espaçamento</li>
+    <li>Foram feitas 42 de 42 atividades.</li>
+    <br>
+    <li><b>2º Certificado</b></li>
     <li>Preparando o layout do projeto</li>
     <li>Criando ícones clicáveis</li>
     <li>Criando header e footer</li>
